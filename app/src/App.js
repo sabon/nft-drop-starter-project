@@ -63,18 +63,19 @@ const App = () => {
       <div className="container">
         <div className="header-container">
           <p className="header">🦈 Shark Drop</p>
-          <p className="sub-text">NFT drop machine with fair mint</p>
+          <p className="sub-text">NFT drop machine on Solana, with fair mint</p>
           {!walletAddress && renderNotConnectedContainer()}
         </div>
         {walletAddress && <CandyMachine walletAddress={window.solana} />}
         <div className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
-          <a
-            className="footer-text"
-            href={TWITTER_LINK}
-            target="_blank"
-            rel="noreferrer"
-          >{`Built by @${TWITTER_HANDLE}`}</a>
+          <a className="footer-text" href={TWITTER_LINK} target="_blank" rel="noreferrer">
+            {`Built by @${TWITTER_HANDLE}`}
+          </a>{" "}
+          &nbsp; with &nbsp;
+          <a href="https://buildspace.so/" style={{ color: "#ffffff" }}>
+            _buildspace
+          </a>
         </div>
       </div>
     </div>
