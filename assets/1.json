@@ -1,0 +1,19 @@
+{
+  "name": "Unusual Shark #1",
+  "symbol": "USHRKS",
+  "image": "1.png",
+  "properties": {
+    "files": [
+      {
+        "uri": "1.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "9VcyY8qNXT9dvbrbFYNDvLc6LGZwRC3cVeKhvFvqs1vQ",
+        "share": 100
+      }
+    ]
+  }
+}
